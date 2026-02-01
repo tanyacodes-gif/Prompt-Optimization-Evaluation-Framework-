@@ -35,5 +35,3 @@ The **Prompt Optimization and Evaluation Framework** allows developers to:
 
 ---
 
-## 🏗️ Project Structure
-
