@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prompt Optimization & Evaluation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Prompt Optimization & Evaluation</h1>
+    <p>Compare multiple prompt versions and find the best one</p>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h2>Task Input</h2>
+      <textarea id="taskInput" placeholder="Enter the task input here..."></textarea>
+    </section>
+
+    <section>
+      <h2>Prompt Variants</h2>
+      <div id="prompts">
+        <textarea placeholder="Prompt version 1"></textarea>
+        <textarea placeholder="Prompt version 2"></textarea>
+      </div>
+      <button id="addPromptBtn">+ Add Prompt</button>
+    </section>
+
+    <section>
+      <button id="runBtn">Run Evaluation</button>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <div id="results" class="results"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
